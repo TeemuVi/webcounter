@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Robot Framework & Selenium output
+output.xml
+log.html
+report.html
+*.png
+
+
