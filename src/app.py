@@ -23,13 +23,9 @@ def set_number():
     number = int(request.form.get("value",0))
     cnt.value = number
     return redirect("/")
-    
+
 @app.route("/reset", methods=["POST"])
 def reset():
     cnt.value = 0
     return redirect("/")
-    
-@app.route("/reset", methods=["POST"])
-def test_reset():
-    cnt.value = 0
-    return "Reset"
+
