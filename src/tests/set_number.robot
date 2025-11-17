@@ -2,6 +2,7 @@
 Resource  resource.robot
 Suite Setup  Open And Configure Browser
 Suite Teardown  Close Browser
+test Setup  Reset Application And Go To Home Page
 
 *** Test Cases ***
 set number test
