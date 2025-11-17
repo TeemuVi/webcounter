@@ -24,8 +24,4 @@ def set_number():
     cnt.value = number
     return redirect("/")
 
-@app.route("/reset", methods=["POST"])
-def reset():
-    cnt.value = 0
-    return redirect("/")
 
