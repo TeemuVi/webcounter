@@ -1,4 +1,4 @@
-from flask import Flask, redirect,request, render_template
+from flask import Flask, redirect, request, render_template
 from counter import Counter
 
 app = Flask(__name__)
